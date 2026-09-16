@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training and inference outputs
+runs/
+run/
+*.cache
+*.log
+confusion_matrix.png
+error_analysis.csv
+inference_result.csv
+
+# Large model weights: upload through GitHub Releases or Git LFS when needed.
+yolo11*.pt
+models/*.pt
+models/*.pth

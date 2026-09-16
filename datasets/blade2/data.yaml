@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Crack', 'Dirt', 'Erosion', 'PU-tape', 'Pin_Hole', 'oil_leakage']
+
+roboflow:
+  workspace: chill-xlecu
+  project: blade_2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chill-xlecu/blade_2/dataset/3
